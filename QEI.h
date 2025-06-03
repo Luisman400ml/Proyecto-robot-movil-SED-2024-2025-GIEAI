@@ -1,0 +1,27 @@
+#ifndef QEI_JM_H_  
+#define QEI_JM_H_ 
+
+// #define QEICON_RESP 0x01
+#define QEICON_RESPI 0x02
+#define QEICON_RESV 0x04
+#define QEICON_RESI 0x08
+#define QEICONF_DIRINV 0x01
+#define QEICONF_SIGMODE 0x02
+// #define QEICONF_CAPMODE 0x04
+#define QEICONF_INVINX 0x08
+#define QEISTAT_DIR 0x01
+#define QEI_INX_INT 0x0001
+//#define QEI_TIM_INT 0x0002
+#define QEI_VELC_INT 0x0004
+#define QEI_DIR_INT 0x0008
+#define QEI_ERR_INT 0x0010
+#define QEI_ENCLK_INT 0x0020
+//#define QEI_POS0_INT 0x0040
+#define QEI_POS1_INT 0x0080
+#define QEI_POS2_INT 0x0100
+#define QEI_REV_INT 0x0200
+#define QEI_POS0REV_INT 0x0400
+#define QEI_POS1REV_INT 0x0800
+#define QEI_POS2REV_INT 0x1000
+
+#endif

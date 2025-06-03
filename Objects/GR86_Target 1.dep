@@ -1,0 +1,58 @@
+Dependencies for Project 'GR86', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\main.c)(0x675A1A92)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x65C63E3E)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x65C63E3E)
+I (C:\Keil_v5\ARM\ARMCC\include\Math.h)(0x5E53A4BA)
+I (QEI.h)(0x6755AC00)
+I (reg_masks.h)(0x6755AC00)
+I (GLCD.h)(0x6755AC00)
+I (lpc_types.h)(0x6755AC00)
+I (AsciiLib.h)(0x6755AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (uart.h)(0x6755AC00)
+F (.\AsciiLib.c)(0x6755AC00)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\asciilib.o --omf_browse .\objects\asciilib.crf --depend .\objects\asciilib.d)
+I (AsciiLib.h)(0x6755AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (.\GLCD.c)(0x6755AC00)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\glcd.o --omf_browse .\objects\glcd.crf --depend .\objects\glcd.d)
+I (GLCD.h)(0x6755AC00)
+I (lpc_types.h)(0x6755AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\lpc17xx.h)(0x65C63E3E)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x65C63E3E)
+I (HzLib.h)(0x6755AC00)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+I (AsciiLib.h)(0x6755AC00)
+F (.\uart.c)(0x6755AC00)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x65C63E3E)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x65C63E3E)
+I (uart.h)(0x6755AC00)
+F (RTE\Device\LPC1768\RTE_Device.h)(0x6755AC00)()
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x6755AC00)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include--pd "__UVISION_VERSION SETA 530" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x6755AC00)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x65C63E3E)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\Usuario\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x65C63E3E)
